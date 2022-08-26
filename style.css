@@ -250,6 +250,7 @@ footer {
   .section-heading {
     text-align: center;
   }
+  /*
   .row-projects-section-total {
     display: flex;
     flex-direction: column-reverse;
@@ -285,6 +286,14 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }*/
+  .certificates-row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card-img-top {
+    width: 15rem;
   }
 }
 
