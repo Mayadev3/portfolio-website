@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio Website</title>
   </head>
-  <body class="index-page pb-5">
+  <body class="pb-5">
   <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
        <a class="navbar-brand my-logo" href="/">MY<i class="fa-solid fa-paw paw"></i></a>
@@ -34,23 +34,23 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav nav-list">
         <li class="nav-item">
-          <a class="nav-link  text-center animate__animated animate__pulse" aria-current="page" href="/">Projects</a>
+          <a class="nav-link animate__animated animate__flash " aria-current="page" href="/">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-center animate__animated animate__pulse" href="/projects.html">Certificates</a>
+          <a class="nav-link animate__animated animate__flash" href="#certificates">Certificates</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-center animate__animated animate__pulse" href="#">Contact</a>
+          <a class="nav-link animate__animated animate__flash" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
     <!--first about-->
-    <div class="container-fluid mt-5 about-container-total">
+    <div class="container-fluid mt-5 about-container-total d-flex justify-content-evenly">
         <div class="about-me-info">
-          <h1 class="my-name">Maya Barbir</h1>
-          <h3 class="my-profession">Junior Front-End Developer</h3>
+          <h1 class="my-name animate__animated animate__fadeInUp">Maya Barbir</h1>
+          <h3 class="my-profession animate__animated animate__fadeInUp">Junior Front-End Developer</h3>
           <p class="about-me-p mt-2">
             Hello! My name is Maya Barbir and I enjoy building things from Legos and puzzles all the way to websites.
             I get a kind of electrifying kick when putting pieces together and creating a well designed and fully functional object.
@@ -59,9 +59,9 @@
 
           </p>
           <div class="icons">
-          <a href="#"><i class="fa-brands fa-github"></i></a>
-           <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-github animate__animated animate__fadeInUp"></i></a>
+           <a href="#"><i class="fa-brands fa-linkedin animate__animated animate__fadeInUp"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram animate__animated animate__fadeInUp"></i></a>
     </div>
         </div>
         <div class="illustration">
@@ -69,18 +69,19 @@
         </div>
       </div>
     </div>
+
     <!--Projects Section-->
-  <h2 class="section-heading">Projects</h2>
-  <!--Grid one-->
+  <h2 class="section-heading text-center">Projects</h2>
+  <!--Grid one project one-->
   <div class="container-fluid projects-section-total">
- <div class="row pb-5 row-projects-section-total">
+ <div class="row pb-5 row-projects-section-total grid-reverse">
     <div class="col-12 col-md-6 text-center cyberdelics-image-container projects-image-container"><img src="/projects/metaverse website.png" class="img-fluid cyberdelics-web-img" />
     <button class="btn btn-primary mt-4"><a href="https://effervescent-paletas-b996bb.netlify.app/" class="launch-button" target="_blank">Launch Website</a></button>
     </div>
     <div class="col-12 col-md-6"><h2 class="cyberdelics-project-header project-headers">Cyberdelics Website</h2>
-    <div class="web-p"><p class="paragraph">When designing my Cyberdelics website I was inspired by movie streaming platforms such as Netflix and HBO Max as well as gaming websites like destructoid and gamesradar.
+    <p class="paragraph">When designing my Cyberdelics website I was inspired by movie streaming platforms such as Netflix and HBO Max as well as gaming websites like destructoid and gamesradar.
     As for the idea came from my passion for peak experiences reached with the immersion within the metaverse. I imagine an online platform in which people can choose the kind of person, world and creatures they could surround themselves with
-     and transform into a new world. By the end of my Shecodes Responsive Workshop, I had put together my own database which included websites with free illustrations, icons, text animations, and coding tricks and hacks.</p></div>
+     and transform into a new world. By the end of my Shecodes Responsive Workshop, I had put together my own database which included websites with free illustrations, icons, text animations, and coding tricks and hacks.</p>
     <div class="icons-container">
         <div class="github-project-link"> <a href="https://github.com/Mayadev3/Metaverse" target="_blank" ><i class="fa-brands fa-github"></i></a> </div>
         <div><i class="fa-brands fa-html5"></i></div>
@@ -92,17 +93,17 @@
     </div>
   </div>
 </div>
-  </div>
+  
   <!--Grid two-->
-   <div class="container-fluid projects-section2-total">
+   <div class="container-fluid">
  <div class="row pb-5 row-projects-section-total-2">
     <div class="col-12 col-md-6 weather-app-info-total">
-        <h2 class="weather-app-header project-header-weather">Weather App</h2>
-   <div class="web-p"><p class="paragraph">I designed and built the weather app during my Shecodes Plus Workshop. It was a fascinating workshop where
+        <h2 class="weather-app-header project-headers">Weather App</h2>
+   <p class="paragraph">I designed and built the weather app during my Shecodes Plus Workshop. It was a fascinating workshop where
         I learned how to integrate weather API which included daily weather forecasts and current location weather in real time. Vanilla JavaScript ES6 is like a hidden blue print that has its own mapping language called the debugger. 
         Learning how to debug enhanced my way of finding patterns, tracking functions and making connections to end up with a well wielded application.
         It was exciting to also commit and push my changes on github as well as host my project on netlify to showcase my work to the community, family and friends.
-    </p></div>
+    </p>
     <div class="icons-container">
         <div class="github-project-link"> <a href="https://github.com/Mayadev3/Weather-App" target="_blank" ><i class="fa-brands fa-github"></i></a> </div>
         <div><i class="fa-brands fa-html5"></i></div>
@@ -116,15 +117,15 @@
     </div>
   </div>
 </div>
-  </div>
+  
   <!--Grid 3-->
   <div class="container-fluid projects-section-total">
- <div class="row pb-5">
+ <div class="row pb-5 grid-reverse">
     <div class="col-12 col-md-6 text-center projects-image-container"><img src="/projects/origami website.png" class="img-fluid cyberdelics-web-img" />
     <button class="btn btn-primary mt-4"><a href="https://silver-rabanadas-a8da9a.netlify.app/" class="launch-button" target="_blank">Launch Website</a></button>
     </div>
     <div class="col-12 col-md-6"><h2 class="cyberdelics-project-header project-headers">Origami Website</h2>
-    <div class="web-p"><p class="paragraph">My origami website was the very first website I ever built which was during my Shecodes Basics Workshop. My love for paper folding origami figures and crafting is what inspired me to build it. At that time I was learning how to align texts and images as well as styling them with HTML5 and CSS3. I used JavaScript ES6 to make alerts, use variables, and call functions to make it all more interactive with the user. </p></div>
+    <p class="paragraph">My origami website was the very first website I ever built which was during my Shecodes Basics Workshop. My love for paper folding origami figures and crafting is what inspired me to build it. At that time I was learning how to align texts and images as well as styling them with HTML5 and CSS3. I used JavaScript ES6 to make alerts, use variables, and call functions to make it all more interactive with the user. </p>
     <div class="icons-container">
         <div class="github-project-link"> <a href="https://github.com/Mayadev3/origami-project" target="_blank" ><i class="fa-brands fa-github"></i></a> </div>
         <div><i class="fa-brands fa-html5"></i></div>
@@ -135,9 +136,9 @@
     </div>
   </div>
 </div>
-  </div>
+  
   <!--Certificates Section-->
-  <h2 class="section-heading certificates-header">Certificates </h2>
+  <h2 class="section-heading certificates-header text-center">Certificates</h2>
   <div class="success-illustration-container d-flex justify-content-center"><img src="/images/arabica-1092.png" class="success-illustration animate__animated animate__tada"   alt=""></div>
 <div class="container-fluid d-flex justify-content-evenly">
   <div class="row certificates-row">
@@ -160,9 +161,7 @@
 </div>
 </div>
 </div>
-</div>
-<div>
-</div>
+
 <!--Contact-->
 <div class="container-fluid contact-section-total">
 
@@ -172,33 +171,41 @@
       <div class="my-pic-container"><img src="/me-recent.jpeg" class="img-fluid my-pic" /></div>
     </div>
     <div class="col-12 col-md-6">
-      <div><h2 class="cyberdelics-project-header mt-4">Get In Touch !</h2></div>
-        <div class="contact-icons">
-   <div class="email-container d-flex justify-content-start"><div><lord-icon
+      <h2 class="cyberdelics-project-header mt-4">Get In Touch !</h2>
+        
+   <div class="email-container d-flex justify-content-start">
+    
+    <div><lord-icon
     src="https://cdn.lordicon.com/gzmgulpl.json"
     trigger="hover"
     style="width:70px;height:70px">
 </lord-icon></div>
+
 <div class="mt-4 ms-1"><a href="Mailto:mayoutha87.mb@gmail.com" class="mail-link">mayoutha87.mb@gmail.com</a></div>
 </div>
-<div class="home-container d-flex justify-content-start"><div class="home-icon"><lord-icon
+
+<div class="home-container d-flex justify-content-start">
+  <div class="home-icon"><lord-icon
     src="https://cdn.lordicon.com/etqbfrgp.json"
     trigger="hover"
     style="width:70px;height:70px"
     class="ms-2">
-</lord-icon></div><div class="address"><p>Barcelona,Spain</p></div></div>
+</lord-icon></div>
+<div class="address"><p>Barcelona,Spain</p></div>
+</div>
 
-   <div class="phone-container d-flex justify-content-start"><div class="phone-icon ms-2"><lord-icon
+   <div class="phone-container d-flex justify-content-start">
+    <div class="phone-icon ms-2"><lord-icon
     src="https://cdn.lordicon.com/kjkiqtxg.json"
     trigger="hover"
     style="width:70px;height:70px">
-</lord-icon></div><div class="phone-number mt-4"><p>+34677299818</p></div></div>
+</lord-icon></div>
+<div class="phone-number mt-4"><p>+34677299818</p></div>
+</div>
    </div>
     </div>
-  </div>
-</div>
-  </div>
-  <footer>
+<!--footer section-->
+<footer>
     <div class="footer-container d-flex justify-content-center mt-5">
         <div class="footer-content">Designed & Built by Maya Barbir</div>
         <div class="github-icon-footer ms-2"><a href="https://github.com/Mayadev3/portfolio-website" class="text-decoration-none github-project-link" target="_blank"><i class="fa-brands fa-github"></i></a></div>

@@ -14,7 +14,7 @@
   src: url("/AribauGrotesk-Regular.ttf");
 }
 /*section-1  body background, logo and navbar*/
-body.index-page {
+body {
   background: linear-gradient(
     20deg,
     rgba(222, 226, 230, 1) 11%,
@@ -35,21 +35,17 @@ body.index-page {
   font-size: 13px;
 }
 .nav-list {
-  margin: 0 auto;
-}
-.nav-list ul li {
-  margin-right: 30px;
+  margin-left: 37px;
 }
 .nav-item a {
   color: black;
   font-family: var(--font-family-headings);
+  margin-right: 70px;
 }
-
+.nav-item a:hover {
+  color: var(--secondary-color);
+}
 /*section-2 about me and illustration*/
-.about-container-total {
-  display: flex;
-  justify-content: space-evenly;
-}
 .about-me-info {
   margin-top: 60px;
 }
@@ -87,12 +83,9 @@ h1 {
   margin-top: 100px;
 }
 
-h2.section-heading {
+.section-heading {
   font-family: var(--font-family-headings);
-  text-align: center;
-  margin: 60px auto;
-  width: 20%;
-  padding: 5px 3px;
+  margin-top: 60px;
 }
 
 .cyberdelics-web-img {
@@ -106,7 +99,7 @@ h2.cyberdelics-project-header {
   letter-spacing: -2px;
   margin-top: -10px;
 }
-p.web-p {
+p.paragraph {
   font-family: var(--font-family-text);
 }
 .icons-container {
@@ -142,7 +135,7 @@ a.launch-button {
   margin-top: 50px;
 }
 .weather-app-info-total {
-  padding-left: 70px;
+  padding-left: 50px;
 }
 .weather-app-header {
   font-family: var(--font-family-headings);
@@ -209,11 +202,7 @@ footer {
     border: 1px solid white;
     margin-right: 23px;
   }
-  .nav-item a {
-    display: block;
-    margin: 0 auto;
-    font-size: 13px;
-  }
+
   .about-container-total {
     display: flex;
     flex-direction: column;
@@ -249,6 +238,16 @@ footer {
   }
   .section-heading {
     text-align: center;
+  }
+  .grid-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .cyberdelics-web-img {
+    margin-top: 40px;
+  }
+  .weather-app-info-total {
+    margin-left: -33px;
   }
   .certificates-row {
     display: flex;
