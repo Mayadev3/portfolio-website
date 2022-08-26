@@ -249,6 +249,7 @@ footer {
     display: flex;
     flex-direction: column-reverse;
   }
+
   .cyberdelics-web-img {
     margin-top: 40px;
   }
@@ -261,11 +262,12 @@ footer {
   .origami-row {
     margin-top: -60px;
   }
+  .certificates-header {
+    margin-top: 30px;
+  }
   .certificates-row {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 20px;
   }
   .card-img-top {
     width: 15rem;
@@ -274,7 +276,6 @@ footer {
     display: none;
   }
 }
-
 @media (min-width: 1000px) {
   .about-me-info {
     margin-left: 40px;
