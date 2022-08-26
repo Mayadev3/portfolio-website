@@ -52,7 +52,6 @@ body.index-page {
 }
 .about-me-info {
   margin-top: 60px;
-  margin-left: -40px;
 }
 .about-me-info h1,
 h3 {
@@ -70,7 +69,7 @@ h1 {
 .illustration-img {
   width: 430px;
   height: 430px;
-  margin-top: -20px;
+  margin-top: 24px;
 }
 .icons i {
   font-size: 30px;
@@ -95,6 +94,7 @@ h2.section-heading {
   width: 20%;
   padding: 5px 3px;
 }
+
 .cyberdelics-web-img {
   width: 500px;
   height: 255px;
@@ -138,7 +138,9 @@ a.launch-button {
 .btn-primary:hover {
   box-shadow: 0 0 10px 5px white;
 }
-
+.row-projects-section-total-2 {
+  margin-top: 50px;
+}
 .weather-app-info-total {
   padding-left: 70px;
 }
@@ -155,19 +157,18 @@ a.launch-button {
 }
 
 .illustration-for-project-origami {
-  width: 450px;
-  height: 200px;
+  width: 300px;
 }
 /*certificates section*/
-.card-img-top {
-  box-shadow: 2px 2px 10px 6px #1e429f;
+.success-illustration-container {
+  margin-top: -50px;
+  margin-bottom: 23px;
 }
 /*Contact Section*/
 .my-pic {
-  width: 340px;
+  width: 330px;
   height: 360px;
-  border-radius: 8px;
-  box-shadow: 0.2rem 0.2rem #e74694, -0.2rem -0.2rem turquoise;
+  border-radius: 100%;
   padding-right: 5px;
   padding-bottom: 5px;
 }
@@ -186,9 +187,17 @@ a.launch-button {
   margin-top: 33px;
 }
 /*footer*/
+footer {
+  position: relative;
+  bottom: -20px;
+}
 .github-icon-footer {
   font-size: 20px;
   margin-top: -4px;
+}
+.footer-content {
+  font-family: var(--font-family-headings);
+  letter-spacing: -0.9px;
 }
 /* Media Query */
 @media (max-width: 930px) {
@@ -235,10 +244,42 @@ a.launch-button {
     display: block;
     margin: 45px auto;
   }
-  h2.projects-heading {
-    font-size: 20px;
+  .section-heading {
+    text-align: center;
+  }
+  .row-projects-section-total {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  h2.project-headers,
+  .paragraph {
+    text-align: left;
+    width: 210%;
+    border: 2px solid red;
+  }
+  .icons-container {
+    margin-left: 20px;
+  }
+  .icons-container i {
+    font-size: 27px;
+  }
+  .illustration-for-project {
+    display: none;
+  }
+  .projects-image-container {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: 200px;
+  }
+  .row-projects-section-total-2 {
+    display: flex;
+    flex-direction: column;
   }
 }
+
 @media (min-width: 1000px) {
   .about-me-info {
     margin-left: 40px;
