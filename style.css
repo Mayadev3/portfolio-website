@@ -250,50 +250,17 @@ footer {
   .section-heading {
     text-align: center;
   }
-  /*
-  .row-projects-section-total {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  h2.project-headers,
-  .paragraph {
-    text-align: left;
-    width: 210%;
-    border: 2px solid red;
-  }
-  .icons-container {
-    margin-left: 20px;
-  }
-  .icons-container i {
-    font-size: 27px;
-  }
-  .illustration-for-project {
-    display: none;
-  }
-  .projects-image-container {
-    display: block;
-    margin: 20px auto;
-    width: 300px;
-    height: 200px;
-  }
-  .row-projects-section-total-2 {
-    display: flex;
-    flex-direction: column;
-  }
-  .projects-section-row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }*/
   .certificates-row {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 20px;
   }
   .card-img-top {
     width: 15rem;
+  }
+  .illustration-for-project {
+    display: none;
   }
 }
 
@@ -316,50 +283,4 @@ footer {
     width: 360px;
     height: 360px;
   }
-}
-
-/*extras*/
-body.projects-page {
-  background: rgb(222, 226, 230);
-  background: linear-gradient(
-    20deg,
-    rgba(222, 226, 230, 1) 15%,
-    rgba(143, 225, 226, 1) 33%,
-    rgba(222, 226, 230, 1) 51%,
-    rgba(248, 249, 250, 1) 70%,
-    rgba(222, 226, 230, 1) 100%
-  );
-}
-
-.girl-project {
-  position: relative;
-  right: 0;
-  top: 10px;
-}
-.button-project-1 {
-  margin-left: 230px;
-  margin-top: 30px;
-}
-.plane-man {
-  width: 470px;
-  height: 230px;
-  display: block;
-  margin-left: 110px;
-  margin-top: -55px;
-}
-.button-weather-1 {
-  margin-top: 30px;
-  margin-left: 190px;
-}
-.plan-img {
-  display: block;
-  margin: 0 auto;
-}
-.launch-button-plan {
-  display: block;
-  margin-left: 190px;
-  margin-top: 30px;
-}
-.nav-link:hover {
-  color: #36454f;
 }
