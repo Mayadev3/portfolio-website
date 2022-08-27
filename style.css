@@ -37,13 +37,9 @@ body {
 .paw {
   font-size: 13px;
 }
-.nav-list {
-  margin-left: 37px;
-}
 .nav-item a {
   color: black;
   font-family: var(--font-family-headings);
-  margin-right: 70px;
 }
 .nav-item a:hover {
   color: var(--secondary-color);
