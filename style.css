@@ -128,14 +128,14 @@ p.paragraph {
   background-color: #0842cb !important;
   border: none;
 }
+.btn-primary:hover {
+  box-shadow: 0 0 10px 5px plum;
+}
 a.launch-button {
   color: white;
   font-family: var(--font-family-text);
   text-decoration: none;
   text-align: center;
-}
-.btn-primary:hover {
-  box-shadow: 0 0 10px 5px plum;
 }
 
 .weather-app-info-total {
