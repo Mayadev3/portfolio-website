@@ -264,7 +264,10 @@ footer {
     font-size: 27px;
   }
   .cyberdelics-web-img {
-    margin-top: 40px;
+    margin-top: -50px;
+  }
+  .cyberdelics-info-container {
+    margin-top: 35px;
   }
   .weather-app-info-total {
     margin-left: -33px;
@@ -272,8 +275,11 @@ footer {
   .weather-app-img {
     margin-top: 37px;
   }
-  .origami-row {
-    margin-top: -60px;
+  .origami-project-img-container {
+    margin-top: 35px;
+  }
+  .origami-info-container {
+    margin-top: 35px;
   }
   .certificates-header {
     margin-top: 30px;
