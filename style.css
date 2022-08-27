@@ -121,7 +121,7 @@ p.paragraph {
   transform: translateY(-3px);
 }
 .btn-primary {
-  background-color: #76a9fa !important;
+  background-color: #0842cb !important;
   border: none;
 }
 a.launch-button {
@@ -131,7 +131,7 @@ a.launch-button {
   text-align: center;
 }
 .btn-primary:hover {
-  box-shadow: 0 0 10px 5px white;
+  box-shadow: 0 0 10px 5px plum;
 }
 
 .weather-app-info-total {
@@ -155,10 +155,7 @@ a.launch-button {
   width: 300px;
 }
 /*certificates section*/
-.certificates-header {
-  margin-top: -30px;
-  margin-bottom: 40px;
-}
+
 .success-illustration {
   width: 210px;
   height: 210px;
@@ -313,29 +310,47 @@ footer {
   }
 }
 /*extra*/
+
 .logo-design-illustration {
-  width: 430px;
-  height: 360px;
+  width: 330px;
+  height: 280px;
+  position: relative;
+  top: -50px;
+  left: 140px;
+  rotate: -30deg;
 }
 .metaverse-img {
-  margin-top: 180px;
+  margin-top: -170px;
 }
-
-.girl-illustration {
-  width: 370px;
-  height: 240px;
-  position: relative;
-  top: 160px;
-  left: 780px;
+.cyberdelics-info-container {
+  margin-top: -300px;
 }
-
-.plane-illustration {
-  width: 460px;
-  height: 310px;
+.girl-dog-illustration {
+  width: 490px;
+  height: 280px;
   position: relative;
-  top: -300px;
-  left: 150px;
+  top: -170px;
+  left: 760px;
+}
+.weather-app-info-total {
+  margin-top: -260px;
 }
 .weather-app-img {
-  margin-top: 150px;
+  margin-top: -170px;
+}
+.plane-illustration {
+  width: 430px;
+  height: 190px;
+  position: relative;
+  top: -230px;
+  left: 180px;
+}
+.origami-project-img-container {
+  margin-top: -270px;
+}
+.origami-info-container {
+  margin-top: -230px;
+}
+.certificates-total-container {
+  margin-top: 80px;
 }
