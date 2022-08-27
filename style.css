@@ -263,10 +263,6 @@ footer {
   .icons-container i {
     font-size: 27px;
   }
-  .grid-reverse {
-    display: flex;
-    flex-direction: column-reverse;
-  }
   .cyberdelics-web-img {
     margin-top: 40px;
   }
