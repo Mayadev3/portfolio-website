@@ -159,15 +159,25 @@ a.launch-button {
   margin-top: -30px;
   margin-bottom: 40px;
 }
-.success-illustration-container {
-}
 .success-illustration {
   width: 210px;
   height: 210px;
   position: relative;
-  left: -180px;
-  top: -100px;
-  rotate: -20deg;
+}
+.card-img-top {
+  border-radius: 5px;
+}
+.card-1 {
+  margin-top: -180px;
+  margin-left: 30px;
+  rotate: 30deg;
+}
+.card-2 {
+}
+.card-3 {
+  margin-left: -30px;
+  margin-top: -170px;
+  rotate: -25deg;
 }
 /*Contact Section*/
 .contact-section-total {
@@ -275,7 +285,7 @@ footer {
     display: flex;
     flex-direction: column;
   }
-  .card-img-top {
+  img.card-img-top {
     width: 15rem;
   }
   .illustration-for-project {
@@ -302,11 +312,30 @@ footer {
     height: 360px;
   }
 }
-.section-heading {
-  position: relative;
+/*extra*/
+.logo-design-illustration {
+  width: 430px;
+  height: 360px;
 }
-.section-heading::before {
-  content: url("");
-  display: block;
-  font-size: 10px;
+.metaverse-img {
+  margin-top: 180px;
+}
+
+.girl-illustration {
+  width: 370px;
+  height: 240px;
+  position: relative;
+  top: 160px;
+  left: 780px;
+}
+
+.plane-illustration {
+  width: 460px;
+  height: 310px;
+  position: relative;
+  top: -300px;
+  left: 150px;
+}
+.weather-app-img {
+  margin-top: 150px;
 }
