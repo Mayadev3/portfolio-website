@@ -210,11 +210,16 @@ footer {
 }
 /* Media Query */
 @media (max-width: 930px) {
+  .my-logo {
+    margin-left: 0;
+  }
+  .nav-item a {
+    color: var(--primary-color);
+  }
   .navbar-toggler {
     font-size: 10px;
     border: 1px solid white;
   }
-
   .about-container-total {
     display: flex;
     flex-direction: column;
