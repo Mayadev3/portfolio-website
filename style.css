@@ -28,8 +28,11 @@ body {
 .my-logo {
   font-family: var(--font-family-headings);
   font-size: 30px;
-  color: var(--primary-color);
   margin-left: 35px;
+  transition: all 0.5s ease-in-out;
+}
+.my-logo:hover {
+  color: var(--primary-color);
 }
 .paw {
   font-size: 13px;
@@ -120,6 +123,11 @@ p.paragraph {
 .github-project-link i:hover {
   transform: translateY(-3px);
 }
+.girl-dog-illustration {
+  width: 280px;
+  height: 160px;
+  margin-left: -30px;
+}
 .btn-primary {
   background-color: #0842cb !important;
   border: none;
@@ -141,7 +149,7 @@ a.launch-button {
   font-family: var(--font-family-headings);
   font-size: 43px;
   letter-spacing: -2px;
-  margin-top: -10px;
+  margin-top: -20px;
 }
 .weather-app-img {
   width: 540px;
@@ -149,34 +157,24 @@ a.launch-button {
   border-radius: 5px;
 }
 .origami-row {
-  margin-top: -30px;
+  margin-top: -80px;
 }
-.illustration-for-project-origami {
-  width: 300px;
-}
+
 /*certificates section*/
 
 .success-illustration {
   width: 210px;
   height: 210px;
-  position: relative;
+  margin-bottom: 20px;
 }
 .card-img-top {
   border-radius: 5px;
 }
-.card-1 {
-  margin-top: -180px;
-  margin-left: 30px;
-  rotate: 30deg;
-}
-.card-2 {
-}
-.card-3 {
-  margin-left: -30px;
-  margin-top: -170px;
-  rotate: -25deg;
-}
+
 /*Contact Section*/
+.contact-header {
+  font-family: var(--font-family-headings);
+}
 .contact-section-total {
   margin-top: 100px;
 }
@@ -232,22 +230,22 @@ footer {
     margin: 0 20px;
   }
   h1.my-name {
-    font-size: 25px;
+    font-size: 35px;
   }
   h3.my-profession {
-    font-size: 17px;
+    font-size: 23px;
   }
   h1.my-name,
   h3.my-profession {
-    line-height: 1.2rem;
+    line-height: 1.7rem;
     letter-spacing: -0.07rem;
   }
   .about-me-p {
     width: 100%;
-    margin-top: 8px;
+    margin-top: 10px;
   }
   .icons a i {
-    font-size: 23px;
+    font-size: 26px;
   }
   .illustration-img {
     width: 200px;
@@ -257,12 +255,18 @@ footer {
   }
   .section-heading {
     text-align: center;
+    font-size: 40px;
+  }
+  h2.project-headers {
+    font-size: 35px;
+  }
+  .icons-container i {
+    font-size: 27px;
   }
   .grid-reverse {
     display: flex;
     flex-direction: column-reverse;
   }
-
   .cyberdelics-web-img {
     margin-top: 40px;
   }
@@ -281,12 +285,17 @@ footer {
   .certificates-row {
     display: flex;
     flex-direction: column;
+    gap: 13px;
   }
   img.card-img-top {
     width: 15rem;
   }
   .illustration-for-project {
     display: none;
+  }
+  .contact-header {
+    font-family: var(--font-family-headings);
+    text-align: center;
   }
 }
 @media (min-width: 1000px) {
@@ -308,49 +317,8 @@ footer {
     width: 360px;
     height: 360px;
   }
-}
-/*extra*/
-
-.logo-design-illustration {
-  width: 330px;
-  height: 280px;
-  position: relative;
-  top: -50px;
-  left: 140px;
-  rotate: -30deg;
-}
-.metaverse-img {
-  margin-top: -170px;
-}
-.cyberdelics-info-container {
-  margin-top: -300px;
-}
-.girl-dog-illustration {
-  width: 490px;
-  height: 280px;
-  position: relative;
-  top: -170px;
-  left: 760px;
-}
-.weather-app-info-total {
-  margin-top: -260px;
-}
-.weather-app-img {
-  margin-top: -170px;
-}
-.plane-illustration {
-  width: 430px;
-  height: 190px;
-  position: relative;
-  top: -230px;
-  left: 180px;
-}
-.origami-project-img-container {
-  margin-top: -270px;
-}
-.origami-info-container {
-  margin-top: -230px;
-}
-.certificates-total-container {
-  margin-top: 80px;
+  .girl-dog-illustration {
+    width: 300px;
+    height: 130px;
+  }
 }
