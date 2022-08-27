@@ -160,8 +160,14 @@ a.launch-button {
   margin-bottom: 40px;
 }
 .success-illustration-container {
-  margin-top: -50px;
-  margin-bottom: 23px;
+}
+.success-illustration {
+  width: 210px;
+  height: 210px;
+  position: relative;
+  left: -180px;
+  top: -100px;
+  rotate: -20deg;
 }
 /*Contact Section*/
 .contact-section-total {
@@ -295,4 +301,12 @@ footer {
     width: 360px;
     height: 360px;
   }
+}
+.section-heading {
+  position: relative;
+}
+.section-heading::before {
+  content: url("");
+  display: block;
+  font-size: 10px;
 }
