@@ -31,9 +31,32 @@ body {
   font-size: 30px;
   margin-left: 35px;
   transition: all 0.5s ease-in-out;
+  animation-name: my-logo;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
 }
 .my-logo:hover {
   color: var(--primary-color);
+}
+@keyframes my-logo {
+  0% {
+    color: var(--primary-color);
+  }
+  20% {
+    color: var(--tertiary-color);
+  }
+  40% {
+    color: var(--primary-color);
+  }
+  60% {
+    color: var(--tertiary-color);
+  }
+  80% {
+    color: var(--primary-color);
+  }
+  100% {
+    color: var(--tertiary-color);
+  }
 }
 .paw {
   font-size: 13px;
@@ -42,12 +65,10 @@ ul {
   display: block;
   margin: 0 auto;
 }
-ul li {
-  font-family: var(--font-family-headings);
-  margin-right: 50px;
-}
+
 .nav-item a {
   color: var(--tertiary-color);
+  font-family: var(--font-family-headings);
 }
 .nav-item a:hover {
   color: var(--primary-color);
