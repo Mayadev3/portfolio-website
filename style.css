@@ -82,11 +82,10 @@ h1 {
   margin-top: 100px;
 }
 .row-projects-section-total {
-  padding: 7px;
+  padding: 10px;
 }
 .section-heading {
   font-family: var(--font-family-headings);
-  margin-top: 60px;
 }
 
 .cyberdelics-web-img {
@@ -105,11 +104,13 @@ p.paragraph {
 }
 .icons-container {
   display: flex;
-  gap: 40px;
+  gap: 13;
 }
 .icons-container i {
   font-size: 35px;
+  margin-right: 20px;
 }
+
 .github-project-link i {
   color: black;
   box-shadow: 0 0 26px 4px var(--secondary-color);
@@ -119,11 +120,7 @@ p.paragraph {
 .github-project-link i:hover {
   transform: translateY(-3px);
 }
-.girl-dog-illustration {
-  width: 280px;
-  height: 160px;
-  margin-left: -30px;
-}
+
 .btn-primary {
   background-color: #0842cb !important;
   border: none;
@@ -151,6 +148,10 @@ a.launch-button {
   width: 540px;
   height: 320px;
   border-radius: 5px;
+}
+.plane-illustration {
+  width: 300px;
+  height: 170px;
 }
 .origami-row {
   margin-top: -80px;
@@ -209,7 +210,7 @@ footer {
   letter-spacing: -0.9px;
 }
 /* Media Query */
-@media (max-width: 930px) {
+@media (max-width: 913px) {
   .my-logo {
     margin-left: 0;
   }
@@ -284,21 +285,26 @@ footer {
   .certificates-header {
     margin-top: 30px;
   }
-  .certificates-row {
+  /*.certificates-row {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 13px;
-  }
-  img.card-img-top {
-    width: 15rem;
-  }
+    margin-top: 30px;
+    padding: 10px;
+  }*/
   .illustration-for-project {
     display: none;
   }
   .contact-header {
     font-family: var(--font-family-headings);
     text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 912px) {
+  .cyberdelics-info-container,
+  .origami-info-container {
+    margin-top: -35px;
   }
 }
 @media (min-width: 1000px) {
