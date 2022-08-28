@@ -3,6 +3,7 @@
   --font-family-text: "aribau regular", "serif";
   --primary-color: #bf125d;
   --secondary-color: #047481;
+  --tertiary-color: black;
 }
 
 @font-face {
@@ -37,12 +38,19 @@ body {
 .paw {
   font-size: 13px;
 }
-.nav-item a {
-  color: black;
+ul {
+  display: block;
+  margin: 0 auto;
+}
+ul li {
   font-family: var(--font-family-headings);
+  margin-right: 50px;
+}
+.nav-item a {
+  color: var(--tertiary-color);
 }
 .nav-item a:hover {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 /*section-2 about me and illustration*/
 .about-me-info {
@@ -211,8 +219,9 @@ footer {
 }
 /* Media Query */
 @media (max-width: 913px) {
-  .my-logo {
-    margin-left: 0;
+  .my-logo,
+  ul {
+    margin-left: 30px;
   }
   .nav-item a {
     color: var(--primary-color);
@@ -220,6 +229,7 @@ footer {
   .navbar-toggler {
     font-size: 10px;
     border: 1px solid white;
+    margin-right: 30px;
   }
   .about-container-total {
     display: flex;
