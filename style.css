@@ -42,7 +42,9 @@ ul {
   display: block;
   margin: 0 auto;
 }
-
+ul li {
+  margin-right: 60px;
+}
 .nav-item a {
   color: var(--tertiary-color);
   font-family: var(--font-family-headings);
