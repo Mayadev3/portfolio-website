@@ -174,12 +174,15 @@ a.launch-button {
 .origami-row {
   margin-top: -80px;
 }
-
+.boy-pen-illustration {
+  width: 280px;
+  height: 240px;
+}
 /*certificates section*/
 
 .success-illustration {
-  width: 210px;
-  height: 210px;
+  width: 270px;
+  height: 270px;
   margin-bottom: 20px;
 }
 .card-img-top {
