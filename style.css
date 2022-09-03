@@ -72,7 +72,6 @@ h1 {
 .illustration-img {
   width: 430px;
   height: 430px;
-  margin-top: 24px;
   animation-name: Maya;
   animation-duration: 1s;
   animation-fill-mode: forwards;
